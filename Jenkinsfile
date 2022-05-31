@@ -1,7 +1,7 @@
 pipeline {
     agent {label 'windows'}
     
-    options { skipDefaultCheckout() }
+//     options { skipDefaultCheckout() }
 
     stages {
         stage('Install Dependencies') {
